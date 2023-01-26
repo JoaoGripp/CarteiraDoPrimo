@@ -91,8 +91,21 @@ struct MockData {
         .init(symbol: "ALZR11", value: 18, date: "Set/2021", type: .fundoImobiliario),
         .init(symbol: "ALZR11", value: 19, date: "Out/2021", type: .fundoImobiliario),
         .init(symbol: "ALZR11", value: 20, date: "Nov/2021", type: .fundoImobiliario),
-        .init(symbol: "ALZR11", value: 21, date: "Dec/2021", type: .fundoImobiliario)
-    
+        .init(symbol: "ALZR11", value: 21, date: "Dec/2021", type: .fundoImobiliario),
+        .init(symbol: "ITSA4", value: 5, date: "Jan/2021", type: .stockBrazilian),
+        .init(symbol: "ITSA4", value: 5, date: "Fev/2021", type: .stockBrazilian),
+        .init(symbol: "ITSA4", value: 5, date: "Mar/2021", type: .stockBrazilian),
+        .init(symbol: "ITSA4", value: 5, date: "Abr/2021", type: .stockBrazilian),
+        .init(symbol: "ITSA4", value: 5, date: "Mai/2021", type: .stockBrazilian),
+        .init(symbol: "ITSA4", value: 5, date: "Jun/2021", type: .stockBrazilian),
+        .init(symbol: "ITSA4", value: 5, date: "Jul/2021", type: .stockBrazilian),
+        .init(symbol: "ITSA4", value: 5, date: "Ago/2021", type: .stockBrazilian),
+        .init(symbol: "ITSA4", value: 5, date: "Set/2021", type: .stockBrazilian),
+        .init(symbol: "ITSA4", value: 5, date: "Out/2021", type: .stockBrazilian),
+        .init(symbol: "ITSA4", value: 5, date: "Nov/2021", type: .stockBrazilian),
+        .init(symbol: "ITSA4", value: 5, date: "Dec/2021", type: .stockBrazilian),
+        .init(symbol: "AAPL34", value: 10, date: "Jun/2021", type: .stockUSA),
+        .init(symbol: "AAPL34", value: 10, date: "Nov/2021", type: .stockUSA)
     ]
 }
 
