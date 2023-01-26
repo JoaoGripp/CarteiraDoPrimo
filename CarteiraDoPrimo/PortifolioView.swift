@@ -9,12 +9,23 @@ import SwiftUI
 
 struct PortifolioView: View {
     var body: some View {
-        Text("Portifolio View")
+        NavigationView {
+            Text("Add View")
+        }
+        .toolbar {
+            Button {
+                
+            } label: {
+                Label("Add", systemImage: "plus.circle.fill")
+            }
+        }
     }
 }
 
 struct ProtifolioView_Previews: PreviewProvider {
     static var previews: some View {
-        PortifolioView()
+        NavigationView {
+            PortifolioView()
+        }
     }
 }
