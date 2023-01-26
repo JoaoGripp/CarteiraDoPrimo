@@ -16,8 +16,8 @@ struct ChartExample: View {
         Chart {
             ForEach(data) { dividend in
                 BarMark(
-                    x: .value("Shape Type", dividend.date),
-                    y: .value("Total Count", dividend.value)
+                    x: .value("Date", dividend.date),
+                    y: .value("Value", dividend.value)
                 )
                 .foregroundStyle(by: .value("Shape Color", dividend.type.rawValue))
             }
@@ -44,6 +44,8 @@ struct ToyShape: Identifiable {
     var type: String
     var count: Double
     var id = UUID()
+    
+    var date = Date()
 }
 
 struct Dividend: Identifiable {

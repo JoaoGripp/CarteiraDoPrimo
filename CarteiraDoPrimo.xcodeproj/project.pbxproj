@@ -8,19 +8,29 @@
 
 /* Begin PBXBuildFile section */
 		F8B02EE12982CBDA00A67BAB /* CarteiraDoPrimoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B02EE02982CBDA00A67BAB /* CarteiraDoPrimoApp.swift */; };
-		F8B02EE32982CBDA00A67BAB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B02EE22982CBDA00A67BAB /* ContentView.swift */; };
 		F8B02EE52982CBDB00A67BAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8B02EE42982CBDB00A67BAB /* Assets.xcassets */; };
 		F8B02EE82982CBDB00A67BAB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8B02EE72982CBDB00A67BAB /* Preview Assets.xcassets */; };
 		F8B02EEF2982CC3F00A67BAB /* ChartExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B02EEE2982CC3E00A67BAB /* ChartExample.swift */; };
+		F8E4B7002982FF1500107884 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E4B6FF2982FF1500107884 /* MainView.swift */; };
+		F8E4B702298301B600107884 /* SummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E4B701298301B600107884 /* SummaryView.swift */; };
+		F8E4B704298301ED00107884 /* PortifolioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E4B703298301ED00107884 /* PortifolioView.swift */; };
+		F8E4B7062983021800107884 /* DividendsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E4B7052983021800107884 /* DividendsView.swift */; };
+		F8E4B7082983028000107884 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E4B7072983028000107884 /* HistoryView.swift */; };
+		F8E4B70A2983061600107884 /* PlusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E4B7092983061600107884 /* PlusView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F8B02EDD2982CBDA00A67BAB /* CarteiraDoPrimo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarteiraDoPrimo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8B02EE02982CBDA00A67BAB /* CarteiraDoPrimoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarteiraDoPrimoApp.swift; sourceTree = "<group>"; };
-		F8B02EE22982CBDA00A67BAB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F8B02EE42982CBDB00A67BAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F8B02EE72982CBDB00A67BAB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F8B02EEE2982CC3E00A67BAB /* ChartExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartExample.swift; sourceTree = "<group>"; };
+		F8E4B6FF2982FF1500107884 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		F8E4B701298301B600107884 /* SummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryView.swift; sourceTree = "<group>"; };
+		F8E4B703298301ED00107884 /* PortifolioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortifolioView.swift; sourceTree = "<group>"; };
+		F8E4B7052983021800107884 /* DividendsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DividendsView.swift; sourceTree = "<group>"; };
+		F8E4B7072983028000107884 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		F8E4B7092983061600107884 /* PlusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlusView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +64,12 @@
 			isa = PBXGroup;
 			children = (
 				F8B02EE02982CBDA00A67BAB /* CarteiraDoPrimoApp.swift */,
-				F8B02EE22982CBDA00A67BAB /* ContentView.swift */,
+				F8E4B6FF2982FF1500107884 /* MainView.swift */,
+				F8E4B701298301B600107884 /* SummaryView.swift */,
+				F8E4B703298301ED00107884 /* PortifolioView.swift */,
+				F8E4B7092983061600107884 /* PlusView.swift */,
+				F8E4B7052983021800107884 /* DividendsView.swift */,
+				F8E4B7072983028000107884 /* HistoryView.swift */,
 				F8B02EE42982CBDB00A67BAB /* Assets.xcassets */,
 				F8B02EE62982CBDB00A67BAB /* Preview Content */,
 				F8B02EEE2982CC3E00A67BAB /* ChartExample.swift */,
@@ -140,8 +155,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8E4B70A2983061600107884 /* PlusView.swift in Sources */,
 				F8B02EEF2982CC3F00A67BAB /* ChartExample.swift in Sources */,
-				F8B02EE32982CBDA00A67BAB /* ContentView.swift in Sources */,
+				F8E4B7082983028000107884 /* HistoryView.swift in Sources */,
+				F8E4B7062983021800107884 /* DividendsView.swift in Sources */,
+				F8E4B704298301ED00107884 /* PortifolioView.swift in Sources */,
+				F8E4B7002982FF1500107884 /* MainView.swift in Sources */,
+				F8E4B702298301B600107884 /* SummaryView.swift in Sources */,
 				F8B02EE12982CBDA00A67BAB /* CarteiraDoPrimoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
