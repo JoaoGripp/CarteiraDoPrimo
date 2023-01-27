@@ -8,16 +8,25 @@
 import SwiftUI
 
 struct PortifolioView: View {
+    
+    @State private var shouldShowAddView = false
+    
     var body: some View {
         NavigationView {
             Text("Add View")
         }
         .toolbar {
-            Button {
-                
-            } label: {
-                Label("Add", systemImage: "plus.circle.fill")
+            ToolbarItem(placement: .primaryAction) {
+                Button {
+                    shouldShowAddView.toggle()
+                } label: {
+                    Label("Add", systemImage: "plus.circle.fill")
+                        .font(.largeTitle)
+                }
             }
+        }
+        .sheet(isPresented: $shouldShowAddView) {
+            PlusView()
         }
     }
 }
